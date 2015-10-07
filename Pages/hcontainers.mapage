@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>hcontainers</id>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <flex>1</flex>
+         <controls>
+            <HorizontalComposite>
+               <id>HorizontalComposite1</id>
+               <controls>
+                  <Button>
+                     <id>Button1</id>
+                     <flex>0</flex>
+                  </Button>
+                  <Button>
+                     <id>Button2</id>
+                     <flex>1</flex>
+                  </Button>
+                  <Button>
+                     <id>Button3</id>
+                     <label>Explain ME</label>
+                     <flex>2</flex>
+                     <handlers>
+                        <event
+                              desc="Button3_OnTap"
+                              name="tap">
+                           <handler>
+                              <action
+                                    alertType="Info"
+                                    message="Some widgets inside that container have Flex &gt; 0. So There is no free space to handle."
+                                    notificationType="Alert"
+                                    resultVariable=""
+                                    title="I&apos;m container with FLexy widgets"
+                                    type="SHOW_NOTIFICATION">
+                                 <notificationButtons>
+                                    <notificationButton>OK</notificationButton>
+                                 </notificationButtons>
+                              </action>
+                           </handler>
+                        </event>
+                     </handlers>
+                  </Button>
+               </controls>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite2</id>
+               <controls>
+                  <Button>
+                     <id>Button4</id>
+                  </Button>
+                  <Button>
+                     <id>Button5</id>
+                     <label>Explain ME (Left)</label>
+                     <handlers>
+                        <event
+                              desc="Button5_OnTap"
+                              name="tap">
+                           <handler>
+                              <action
+                                    alertType="Info"
+                                    message="This container has some free space left. And all of that free space is going to be located to the right.&#x0D;&#x0A;&#x0D;&#x0A;That&apos;s default behaviour."
+                                    notificationType="Alert"
+                                    resultVariable=""
+                                    title="I&apos;m Left Aligned Container"
+                                    type="SHOW_NOTIFICATION">
+                                 <notificationButtons>
+                                    <notificationButton>OK</notificationButton>
+                                 </notificationButtons>
+                              </action>
+                           </handler>
+                        </event>
+                     </handlers>
+                  </Button>
+                  <Button>
+                     <id>Button6</id>
+                  </Button>
+               </controls>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite3</id>
+               <controls>
+                  <Button>
+                     <id>Button7</id>
+                  </Button>
+                  <Button>
+                     <id>Button8</id>
+                     <label>Explain ME (Right)</label>
+                     <handlers>
+                        <event
+                              desc="Button8_OnTap"
+                              name="tap">
+                           <handler>
+                              <action
+                                    alertType="Info"
+                                    message="This container puts all free space before widgets.&#x0D;&#x0A;&#x0D;&#x0A;(Horizontal Alignment = Right)"
+                                    notificationType="Alert"
+                                    resultVariable=""
+                                    title="I&apos;m right aligned container"
+                                    type="SHOW_NOTIFICATION">
+                                 <notificationButtons>
+                                    <notificationButton>OK</notificationButton>
+                                 </notificationButtons>
+                              </action>
+                           </handler>
+                        </event>
+                     </handlers>
+                  </Button>
+                  <Button>
+                     <id>Button9</id>
+                  </Button>
+               </controls>
+               <alignX>Right</alignX>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite4</id>
+               <controls>
+                  <Button>
+                     <id>Button10</id>
+                  </Button>
+                  <Button>
+                     <id>Button11</id>
+                     <label>Explain ME (Center)</label>
+                     <handlers>
+                        <event
+                              desc="Button11_OnTap"
+                              name="tap">
+                           <handler>
+                              <action
+                                    alertType="Info"
+                                    message="This widget puts widget in center and distributes free space to the left and to the right."
+                                    notificationType="Alert"
+                                    resultVariable=""
+                                    title="I&apos;m center aligned"
+                                    type="SHOW_NOTIFICATION">
+                                 <notificationButtons>
+                                    <notificationButton>OK</notificationButton>
+                                 </notificationButtons>
+                              </action>
+                           </handler>
+                        </event>
+                     </handlers>
+                  </Button>
+                  <Button>
+                     <id>Button12</id>
+                  </Button>
+               </controls>
+               <alignX>Center</alignX>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite5</id>
+               <controls>
+                  <Button>
+                     <id>Button13</id>
+                  </Button>
+                  <Button>
+                     <id>Button14</id>
+                     <label>Explain ME (Space Around)</label>
+                     <handlers>
+                        <event
+                              desc="Button14_OnTap"
+                              name="tap">
+                           <handler>
+                              <action
+                                    alertType="Info"
+                                    message="This container distributes free space evenly around every widget"
+                                    notificationType="Alert"
+                                    resultVariable=""
+                                    title="Horizontal Align = Space Around"
+                                    type="SHOW_NOTIFICATION">
+                                 <notificationButtons>
+                                    <notificationButton>OK</notificationButton>
+                                 </notificationButtons>
+                              </action>
+                           </handler>
+                        </event>
+                     </handlers>
+                  </Button>
+                  <Button>
+                     <id>Button15</id>
+                  </Button>
+               </controls>
+               <alignX>SpaceAround</alignX>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite6</id>
+               <controls>
+                  <Button>
+                     <id>Button16</id>
+                  </Button>
+                  <Button>
+                     <id>Button17</id>
+                     <label>Explain ME (Space Between)</label>
+                     <handlers>
+                        <event
+                              desc="Button17_OnTap"
+                              name="tap">
+                           <handler>
+                              <action
+                                    alertType="Info"
+                                    message="This container distributes free space evenly in gaps between widgets."
+                                    notificationType="Alert"
+                                    resultVariable=""
+                                    title="Horizontal Align = Space Between"
+                                    type="SHOW_NOTIFICATION">
+                                 <notificationButtons>
+                                    <notificationButton>OK</notificationButton>
+                                 </notificationButtons>
+                              </action>
+                           </handler>
+                        </event>
+                     </handlers>
+                  </Button>
+                  <Button>
+                     <id>Button18</id>
+                  </Button>
+               </controls>
+               <alignX>SpaceBetween</alignX>
+            </HorizontalComposite>
+            <Button>
+               <id>Button19</id>
+               <label>PRESS ME LAST</label>
+               <handlers>
+                  <event
+                        desc="Button19_OnTap"
+                        name="tap">
+                     <handler>
+                        <action
+                              alertType="Info"
+                              message="Same rules are applied to Vertical Layout, but for vertical direction.&#x0D;&#x0A;&#x0D;&#x0A;Let&apos;s see some examples more related to real life."
+                              notificationType="Alert"
+                              resultVariable=""
+                              title="Flex"
+                              type="SHOW_NOTIFICATION">
+                           <notificationButtons>
+                              <notificationButton>OK</notificationButton>
+                           </notificationButtons>
+                        </action>
+                        <action
+                              target="basic"
+                              type="OPEN_PAGE">
+                           <transition>slide</transition>
+                        </action>
+                     </handler>
+                  </event>
+               </handlers>
+            </Button>
+         </controls>
+         <alignY>SpaceBetween</alignY>
+      </VerticalComposite>
+   </controls>
+</page>

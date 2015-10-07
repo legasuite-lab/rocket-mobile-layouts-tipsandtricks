@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>grid</id>
+   <title>Grid</title>
+   <controls>
+      <HorizontalComposite>
+         <id>HorizontalComposite1</id>
+         <flex>1</flex>
+         <controls>
+            <VerticalComposite>
+               <id>VerticalComposite1</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button1</id>
+                     <label>Flex = 2</label>
+                  </Button>
+               </controls>
+               <flex>2</flex>
+            </VerticalComposite>
+            <VerticalComposite>
+               <id>VerticalComposite2</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button2</id>
+                     <label>Flex = 1</label>
+                  </Button>
+               </controls>
+               <flex>1</flex>
+            </VerticalComposite>
+            <VerticalComposite>
+               <id>VerticalComposite3</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button3</id>
+                     <label>Flex = 1</label>
+                  </Button>
+               </controls>
+               <flex>1</flex>
+            </VerticalComposite>
+         </controls>
+      </HorizontalComposite>
+      <HorizontalComposite>
+         <id>HorizontalComposite2</id>
+         <controls>
+            <VerticalComposite>
+               <id>VerticalComposite4</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button4</id>
+                     <label>Flex = 1</label>
+                  </Button>
+               </controls>
+               <flex>1</flex>
+            </VerticalComposite>
+            <VerticalComposite>
+               <id>VerticalComposite5</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button5</id>
+                     <label>PRESS ME</label>
+                     <handlers>
+                        <event
+                              desc="Button5_OnTap"
+                              name="tap">
+                           <handler>
+                              <action
+                                    target="inputs"
+                                    type="OPEN_PAGE">
+                                 <transition>slide</transition>
+                              </action>
+                           </handler>
+                        </event>
+                     </handlers>
+                  </Button>
+               </controls>
+               <flex>2</flex>
+            </VerticalComposite>
+            <VerticalComposite>
+               <id>VerticalComposite6</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button6</id>
+                     <label>Flex = 1</label>
+                  </Button>
+               </controls>
+               <flex>1</flex>
+            </VerticalComposite>
+         </controls>
+         <flex>1</flex>
+      </HorizontalComposite>
+      <HorizontalComposite>
+         <id>HorizontalComposite3</id>
+         <controls>
+            <VerticalComposite>
+               <id>VerticalComposite7</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button7</id>
+                     <label>Flex = 1</label>
+                  </Button>
+               </controls>
+               <flex>1</flex>
+            </VerticalComposite>
+            <VerticalComposite>
+               <id>VerticalComposite8</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button8</id>
+                     <label>Flex = 1</label>
+                  </Button>
+               </controls>
+               <flex>1</flex>
+            </VerticalComposite>
+            <VerticalComposite>
+               <id>VerticalComposite9</id>
+               <customCssClass>u-w0</customCssClass>
+               <controls>
+                  <Button>
+                     <id>Button9</id>
+                     <label>Flex = 2</label>
+                  </Button>
+               </controls>
+               <flex>2</flex>
+            </VerticalComposite>
+         </controls>
+         <flex>1</flex>
+      </HorizontalComposite>
+   </controls>
+   <handlers>
+      <event
+            desc="grid_OnLoad"
+            name="load">
+         <handler>
+            <action
+                  alertType="Info"
+                  message="Using this knowledge we can create any grid we like.&#x0D;&#x0A;&#x0D;&#x0A;If we put Vertical Containers inside a Horizontal one we can define how they grow using Flex property.&#x0D;&#x0A;&lt;br&gt;&#x0D;&#x0A;With one caveat. Vertical Container has default width of 100% so it already takes all space we have.&#x0D;&#x0A;Currently we have no way to define widget width through properties - so we have to use CSS.&#x0D;&#x0A;&lt;br&gt;&#x0D;&#x0A;Lets assign class u-w0 to every Vertical Container that is going to act as a grid column.&#x0D;&#x0A;&lt;br&gt;&#x0D;&#x0A;This class we are going to define in theme.css as &#x0D;&#x0A;&#x0D;&#x0A;.u-w0 {&#x0D;&#x0A; width: 0 !important;&#x0D;&#x0A;}&#x0D;&#x0A;&#x0D;&#x0A;So widget that has this class now has base width of 0;"
+                  notificationType="Alert"
+                  resultVariable=""
+                  title="Grid"
+                  type="SHOW_NOTIFICATION">
+               <notificationButtons>
+                  <notificationButton>OK</notificationButton>
+               </notificationButtons>
+            </action>
+         </handler>
+      </event>
+   </handlers>
+</page>

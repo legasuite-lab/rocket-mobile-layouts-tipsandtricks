@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>buttons</id>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <Button>
+         <id>Button1</id>
+         <label>Flex = 0</label>
+         <flex>0</flex>
+      </Button>
+      <Button>
+         <id>Button2</id>
+         <label>Flex = 1</label>
+         <flex>1</flex>
+      </Button>
+      <Button>
+         <id>Button3</id>
+         <label>Flex = 1</label>
+         <flex>1</flex>
+      </Button>
+      <Button>
+         <id>Button4</id>
+         <label>Flex = 2 (Press ME)</label>
+         <flex>2</flex>
+         <handlers>
+            <event
+                  desc="Button4_OnTap"
+                  name="tap">
+               <handler>
+                  <action
+                        alertType="Info"
+                        message="As you can see the Flexier widget is the more space it grabs when extra space is available.&#x0D;&#x0A;&#x0D;&#x0A;Flex = 1 buttons have same size and Flex=2 button is almost twice as big.&#x0D;&#x0A;&#x0D;&#x0A;We can also handle free space situation differently.&#x0D;&#x0A;&#x0D;&#x0A;We can use free space to grow gaps between widgets.&#x0D;&#x0A;&#x0D;&#x0A;Lets put some Horizontal Containers on Page And see how this is possible."
+                        notificationType="Alert"
+                        resultVariable=""
+                        title="Flex"
+                        type="SHOW_NOTIFICATION">
+                     <notificationButtons>
+                        <notificationButton>OK</notificationButton>
+                     </notificationButtons>
+                  </action>
+                  <action
+                        target="hcontainers"
+                        type="OPEN_PAGE">
+                     <transition>slide</transition>
+                  </action>
+               </handler>
+            </event>
+         </handlers>
+      </Button>
+   </controls>
+</page>

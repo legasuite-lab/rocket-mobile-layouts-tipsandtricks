@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>basic</id>
+   <title>Header and Footer</title>
+   <controls>
+      <HorizontalComposite>
+         <id>HorizontalComposite1</id>
+         <controls>
+            <Label>
+               <id>Label1</id>
+               <value>HEADER</value>
+               <textColor>17</textColor>
+            </Label>
+         </controls>
+         <backgroundColor>20</backgroundColor>
+         <alignX>Center</alignX>
+      </HorizontalComposite>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <flex>1</flex>
+         <controls>
+            <Label>
+               <id>Label3</id>
+               <value>This content sits inside Vertical Cotainer with \n\nFlex = 1!\n\nSo when there is too much space it&apos;s going to grab it for itself. And Header and Footer are going to stick to top and bottom of the page.</value>
+            </Label>
+            <Button>
+               <id>Button1</id>
+               <label>Press ME</label>
+               <handlers>
+                  <event
+                        desc="Button1_OnTap"
+                        name="tap">
+                     <handler>
+                        <action
+                              target="basic_grown"
+                              type="OPEN_PAGE">
+                           <transition>slide</transition>
+                        </action>
+                     </handler>
+                  </event>
+               </handlers>
+            </Button>
+         </controls>
+         <alignY>Middle</alignY>
+      </VerticalComposite>
+      <HorizontalComposite>
+         <id>HorizontalComposite2</id>
+         <controls>
+            <Label>
+               <id>Label2</id>
+               <value>FOOTER</value>
+               <textColor>17</textColor>
+            </Label>
+         </controls>
+         <backgroundColor>20</backgroundColor>
+         <alignX>Center</alignX>
+      </HorizontalComposite>
+   </controls>
+</page>

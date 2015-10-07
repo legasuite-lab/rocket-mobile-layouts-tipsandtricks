@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>start</id>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <flex>1</flex>
+         <controls>
+            <Label>
+               <id>Label1</id>
+               <value style="font-size: 4rem;">Layout Tips and Tricks</value>
+            </Label>
+            <Label>
+               <id>Label2</id>
+               <value>This guide is going to show how to achieve various layouts using current state of Rocket Mobile Application Builder.</value>
+               <marginCustom>
+                  <marginBottom>10</marginBottom>
+               </marginCustom>
+            </Label>
+            <Label>
+               <id>Label3</id>
+               <value>This technology is based on HTML and CSS. \n\nSo CSS styles are going to be used to achieve some things.\n\nOne of CSS layout techincs is based on flex-box specification. \nIn application builder it can be used through Flex property of widget and Vertical and Horizontal alignment properties of container.\n\nThese properties allow to specify how extra space or lack of space situations are going to be handled by host environment.</value>
+               <customCssClass>u-mw100p</customCssClass>
+            </Label>
+         </controls>
+         <alignY>Middle</alignY>
+         <alignX>Center</alignX>
+      </VerticalComposite>
+      <Button>
+         <id>Button1</id>
+         <label>Start</label>
+         <handlers>
+            <event
+                  desc="Button1_OnTap"
+                  name="tap">
+               <handler>
+                  <action
+                        target="button"
+                        type="OPEN_PAGE">
+                     <transition>slide</transition>
+                  </action>
+               </handler>
+            </event>
+         </handlers>
+      </Button>
+   </controls>
+</page>

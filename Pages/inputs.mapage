@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>inputs</id>
+   <title>Custom inputs</title>
+   <controls>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <flex>1</flex>
+         <controls>
+            <HorizontalComposite>
+               <id>HorizontalComposite1</id>
+               <controls>
+                  <Button>
+                     <id>Button1</id>
+                     <label>Button1</label>
+                     <icon>Resources/Tango/32/actions/edit-clear.png</icon>
+                     <show>Icon</show>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button2</id>
+                     <label>Button2</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/list-remove.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <TextField>
+                     <id>TextField1</id>
+                     <customCssClass>u-no_gap u-hauto u-simple_borders</customCssClass>
+                  </TextField>
+                  <Button>
+                     <id>Button3</id>
+                     <label>Button3</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/mail-forward.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+               </controls>
+               <marginDefault>0</marginDefault>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite2</id>
+               <controls>
+                  <Button>
+                     <id>Button4</id>
+                     <label>Button1</label>
+                     <icon>Resources/Tango/32/actions/edit-clear.png</icon>
+                     <show>Icon</show>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button5</id>
+                     <label>Button2</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/list-remove.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <TextField>
+                     <id>TextField2</id>
+                     <customCssClass>u-no_gap u-hauto u-simple_borders</customCssClass>
+                  </TextField>
+                  <Button>
+                     <id>Button6</id>
+                     <label>Button3</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/mail-forward.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+               </controls>
+               <marginDefault>0</marginDefault>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite3</id>
+               <controls>
+                  <Button>
+                     <id>Button7</id>
+                     <label>Button1</label>
+                     <icon>Resources/Tango/32/actions/edit-clear.png</icon>
+                     <show>Icon</show>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button8</id>
+                     <label>Button2</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/list-remove.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <TextField>
+                     <id>TextField3</id>
+                     <customCssClass>u-no_gap u-hauto u-simple_borders</customCssClass>
+                  </TextField>
+                  <Button>
+                     <id>Button9</id>
+                     <label>Button3</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/mail-forward.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+               </controls>
+               <marginDefault>0</marginDefault>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite4</id>
+               <controls>
+                  <Button>
+                     <id>Button10</id>
+                     <label>Button1</label>
+                     <icon>Resources/Tango/32/actions/edit-clear.png</icon>
+                     <show>Icon</show>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button11</id>
+                     <label>Button2</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/list-remove.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <TextField>
+                     <id>TextField4</id>
+                     <customCssClass>u-no_gap u-hauto u-simple_borders</customCssClass>
+                  </TextField>
+                  <Button>
+                     <id>Button12</id>
+                     <label>Button3</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/mail-forward.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+               </controls>
+               <marginDefault>0</marginDefault>
+            </HorizontalComposite>
+            <HorizontalComposite>
+               <id>HorizontalComposite5</id>
+               <controls>
+                  <Button>
+                     <id>Button13</id>
+                     <label>Button1</label>
+                     <icon>Resources/Tango/32/actions/edit-clear.png</icon>
+                     <show>Icon</show>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button14</id>
+                     <label>Button2</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/list-remove.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+                  <TextField>
+                     <id>TextField5</id>
+                     <customCssClass>u-no_gap u-hauto u-simple_borders</customCssClass>
+                  </TextField>
+                  <Button>
+                     <id>Button15</id>
+                     <label>Button3</label>
+                     <show>Icon</show>
+                     <icon>Resources/Tango/32/actions/mail-forward.png</icon>
+                     <customCssClass>u-no_gap u-simple_borders</customCssClass>
+                  </Button>
+               </controls>
+               <marginDefault>0</marginDefault>
+            </HorizontalComposite>
+            <Button>
+               <id>Button16</id>
+               <label>PRESS ME</label>
+               <handlers>
+                  <event
+                        desc="Button16_OnTap"
+                        name="tap">
+                     <handler>
+                        <action
+                              target="center"
+                              type="OPEN_PAGE">
+                           <transition>slide</transition>
+                        </action>
+                     </handler>
+                  </event>
+               </handlers>
+            </Button>
+         </controls>
+         <alignY>SpaceAround</alignY>
+      </VerticalComposite>
+   </controls>
+   <handlers>
+      <event
+            desc="inputs_OnLoad"
+            name="load">
+         <handler>
+            <action
+                  alertType="Info"
+                  message="You can also create some fancy inputs using Flexible Input Field and Buttons inside Horizontal container."
+                  notificationType="Alert"
+                  resultVariable=""
+                  title="Inputs"
+                  type="SHOW_NOTIFICATION">
+               <notificationButtons>
+                  <notificationButton>OK</notificationButton>
+               </notificationButtons>
+            </action>
+         </handler>
+      </event>
+   </handlers>
+</page>

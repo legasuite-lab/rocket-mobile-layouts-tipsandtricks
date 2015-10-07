@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>button_flex</id>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <Button>
+         <id>Button1</id>
+         <label>As you can see button now takes up all available space (Press Me)</label>
+         <handlers>
+            <event
+                  desc="Button1_OnTap"
+                  name="tap">
+               <handler>
+                  <action
+                        alertType="Info"
+                        message="What if we add another button with different Flex property value?&#x0D;&#x0A;&#x0D;&#x0A;Free space is going to be divided between widgets proportionally to Flex values they have.&#x0D;&#x0A;&#x0D;&#x0A;Flex value goes from 0 to 6.&#x0D;&#x0A;&#x0D;&#x0A;0 - means no changing size.&#x0D;&#x0A;1 to 6 - size changes proportionally to Flex property.&#x0D;&#x0A;Empty value - is default behaviour of hosting environment. &#x0D;&#x0A;Which is 0 when free space is avalable and 1 when we have a lack of space.&#x0D;&#x0A;&#x0D;&#x0A;Let&apos;s see how different flex values are going to behave."
+                        notificationType="Alert"
+                        resultVariable=""
+                        title="Flexed button"
+                        type="SHOW_NOTIFICATION">
+                     <notificationButtons>
+                        <notificationButton>OK</notificationButton>
+                     </notificationButtons>
+                  </action>
+                  <action
+                        target="buttons"
+                        type="OPEN_PAGE">
+                     <transition>slide</transition>
+                  </action>
+               </handler>
+            </event>
+         </handlers>
+         <flex>1</flex>
+      </Button>
+   </controls>
+</page>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>button</id>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <Button>
+         <id>Button1</id>
+         <label>Simple Button (Press Me)</label>
+         <handlers>
+            <event
+                  desc="Button1_OnTap"
+                  name="tap">
+               <handler>
+                  <action
+                        alertType="Info"
+                        message="If we make this button flexible - it&apos;s going to take all the free space which is available.&#x0D;&#x0A;&#x0D;&#x0A;Let&apos;s set Button Flex to 1"
+                        notificationType="Alert"
+                        resultVariable=""
+                        title="Flexed button"
+                        type="SHOW_NOTIFICATION">
+                     <notificationButtons>
+                        <notificationButton>OK</notificationButton>
+                     </notificationButtons>
+                  </action>
+                  <action
+                        target="button_flex"
+                        type="OPEN_PAGE">
+                     <transition>slide</transition>
+                  </action>
+               </handler>
+            </event>
+         </handlers>
+      </Button>
+   </controls>
+   <handlers>
+      <event
+            desc="button_OnLoad"
+            name="load">
+         <handler>
+            <action
+                  alertType="Info"
+                  message="Let&apos;s start with a simple button.&#x0D;&#x0A;&#x0D;&#x0A;It&apos;s located inside a page which is a simple Vertical Container. &#x0D;&#x0A;&#x0D;&#x0A;That means that widgets are stacking inside it from top to bottom.&#x0D;&#x0A;And also that Flex widget property is going to work for vertical direction.&#x0D;&#x0A;&#x0D;&#x0A;Right now this button is streched horizontally and has content defined size in vertical direction.&#x0D;&#x0A;&#x0D;&#x0A;Press button to continue."
+                  notificationType="Alert"
+                  resultVariable=""
+                  title="Button"
+                  type="SHOW_NOTIFICATION">
+               <notificationButtons>
+                  <notificationButton>OK</notificationButton>
+               </notificationButtons>
+            </action>
+         </handler>
+      </event>
+   </handlers>
+</page>

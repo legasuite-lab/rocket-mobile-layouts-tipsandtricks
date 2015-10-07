@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page_set>
+   <DeviceType>0</DeviceType>
+   <DefaultPage>start</DefaultPage>
+   <DefaultPageTemplate/>
+   <ScreenOrientation>1</ScreenOrientation>
+   <Theme>ios(Themes/theme.css)</Theme>
+</page_set>

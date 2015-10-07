@@ -1,0 +1,10 @@
+ApplicationVersion = 1.0.0
+GenerateApplicationBundle = true
+ApplicationBundle = com.rs.layouts.tipsntricks
+ApplicationIdentity = 639e6834-e1b7-48af-b4e3-8e3c37cb591e
+ApplicationTitle = Tips and Tricks
+ApplicationVendor = com.rs.layouts
+RMABVersion = 2.2.0.v20151007-40
+LicenseManagers = {"activeLicenseManager":"Development","licenseManagers":{"Production":"","Development":"http://dor-vm-0096.rocketsoftware.com:8080/rhub"}}
+MaxGraceCount = 0
+RequireUserCredentials = false

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510060243" modelVersion="1.0" ?>
+<page>
+   <id>center</id>
+   <title>Absolute Centering</title>
+   <controls>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <flex>1</flex>
+         <controls>
+            <Image>
+               <id>Image1</id>
+               <source>Resources/Tango/128/status/dialog-password.png</source>
+            </Image>
+         </controls>
+         <alignX>Center</alignX>
+         <alignY>Middle</alignY>
+      </VerticalComposite>
+   </controls>
+   <handlers>
+      <event
+            desc="center_OnLoad"
+            name="load">
+         <handler>
+            <action
+                  alertType="Info"
+                  message="You can also perfectly center any content in container using Middle And Center Alignments"
+                  notificationType="Alert"
+                  resultVariable=""
+                  title="Centering"
+                  type="SHOW_NOTIFICATION">
+               <notificationButtons>
+                  <notificationButton>OK</notificationButton>
+               </notificationButtons>
+            </action>
+         </handler>
+      </event>
+   </handlers>
+</page>
